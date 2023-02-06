@@ -572,6 +572,7 @@ padding: 50px 40px;
 
         .card1 .img{
             width: 40%;
+            align-self: flex-end;
         }
 
         .card1 .text p{
