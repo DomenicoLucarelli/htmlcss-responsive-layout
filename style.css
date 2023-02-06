@@ -7,14 +7,30 @@
 /* navbar */
 nav{
     background-color: #0084fd;
-    max-width: 576px;
-    min-height: 70px;
+    /* max-width: 576px;
+    min-height: 70px; */
 
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+    /* padding: 0 20px; */
+}
+
+.menu2{
+    display: none;
+}
+
+.nav-inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    
+    max-width: 576px;
+    min-height: 70px;
     padding: 0 20px;
+
 }
 
 nav .menu {
@@ -28,13 +44,13 @@ nav .menu {
 nav .logo{
     height: 100%;
 }
+/* /navbar */
 
 .container{
-    padding: 50px 20px;
+padding: 50px 40px;
     max-width: 576px;
 }
 
-/* /navbar */
 
 
 /* first container */
@@ -44,7 +60,7 @@ nav .logo{
 
     background-color: #b5ddff;
 
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
 .card .text{
@@ -182,7 +198,437 @@ nav .logo{
         background-color:#9792e4 ;
     }
 
-/* /second container */
+    /* /second container */
+    .container .row{
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+
+        padding: 0 30px;
+    }
+
+    .container .row h2{
+        font-size: 2em;
+        font-weight: bold;
+        color:#9792e4 ;
+    }
+
+    .container .row p{
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    .cerchio{
+    width: 200px;
+    background-color: orange;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    }
+
+    .cards-container .card{
+        background-color:#9792e4 ;
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cards-container .card .cerchio img{
+        height: 100%;
+        transform: translateX(-45px);
+
+        margin-bottom: 20px;
+    }
+    
+    .cards-container .card p{
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .container3 h1{
+        text-align: center;
+        color: white;
+    }
+
+    .container3 .cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container3 .cards-container .card{
+        background-color: white;
+        align-items: start;
+        padding-bottom: 30px;
+    }
+
+    .container3 .cards-container .card h1{
+        text-align: start;
+        color: #9792e4;
+        margin-bottom: 30px;
+        font-size: 3em;
+    }
+
+    .container3 .cards-container .card h2{
+        text-align: start;
+        color: #9792e4;
+
+    }
+
+    .container3 .cards-container .card p{
+        color: #9792e4;
+        text-align: start;
+        font-weight: unset;
+    }
+
+    .container3 .cards-container .card button{
+        padding: 15px 60px;
+
+        border: none;
+        border-radius: 30px;
+
+        background-color: #9792e4;
+
+        color: white;
+        font-size: 1.2em;
+
+    }
+
+    .container4{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container4 .info1 h1{
+        font-size: 2em;
+        color: #9792e4;
+    }
+
+    .container4 .info1 p{
+        font-size: 1.1em;
+        margin: 20px 0;
+        line-height: 2em;
+    }
+
+    .container4 .info2 .cerchio{
+        margin: 20px 0;
+    }
+
+    .container4 .info2 .cerchio img{
+        height: 100%;
+    }
+
+    .container4 .info2  h2{
+        color: #9792e4;
+        margin-bottom: 20px;
+    }
+
+    .container4 .info2  button{
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        background-color: #9792e4;
+        color: white;
+        font-size: 1.2em;
+
+    }
+
+    .container5{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .container5 h3{
+        color: #d5d3f4;
+    }
+
+    .container5 h2{
+        font-size: 2.5em;
+        text-align: center;
+        color: white;
+
+    }
+
+    .container5 h1{
+        font-size: 4em;
+        text-align: center;
+        color: #fdc15f;
+    }
+
+    .container5 p{
+        font-size: 1.2em;
+        color: white;
+        text-align: center;
+    }
+
+    .container5 button{
+        color: #9792e4;
+        background-color:white;
+        border: none;
+        border-radius: 40px;
+        padding: 20px 80px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .container5 span{
+        color: white;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .ext-container:last-of-type{
+        background-color: #333333;
+    }
+
+    .container6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container6 p{
+        color: white;
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .container6 span{
+        color: white;
+        text-align: center;
+        
+
+    }
+
+    .container6 a{
+        color: #8c88d1;
+    }
 
 
+    @media screen and (min-width: 577px  ) and (max-width: 992px){
+        .nav-inner{
+            max-width: 100%;
+        }
 
+        .container{
+            max-width: 100%;
+        }
+
+        .container1{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .card1{
+            width: calc(100% / 3 *2 - 15px);
+
+        }
+         .card2{
+            width: calc(100% / 3 - 15px)
+           
+         }
+
+         .ext-container{
+            max-width: 100%;
+         }
+
+         .cards-container .card{
+            flex-direction: row;
+            gap: 15px;
+
+         }
+
+         .cerchio{
+            width: 650px;
+         }
+
+         .cards-container .card .cerchio img{
+            transform: translateX(-40px);
+         }
+
+         .cards-container .card p{
+            text-align: start;
+         }
+
+         .container3 .cards-container .card{
+            flex-direction: column;
+
+            width: calc(100% / 2 - 15px);
+         }
+
+         .container3 .cards-container{
+            flex-direction: row;
+            gap: 15px;
+            flex-wrap: wrap;
+         }
+
+         .container4 .info2 .cerchio{
+            width: 200px;
+         }
+
+         .container4{
+            flex-direction: row;
+            gap: 20px;
+         }
+
+         .container4 .info1 h1{
+            font-size: 4em;
+         }
+
+         .container4 .info1{
+            width: 50%;
+         }
+
+         .container4 .info2{
+            width: 50%;
+         }
+    }
+
+    @media screen and (min-width: 993px){
+        nav{
+            max-width: 100%;
+        }
+        
+        .nav-inner{
+
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+
+        .menu2{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .menu2 .items button{
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            background-color: white;
+            color: black;
+            font-size: 1em;
+            font-weight: ;
+        }
+
+        .menu{
+            display: none;
+        }
+
+        .container{
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        
+        
+
+        .container1{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .card1{
+            width: calc(100% / 3 *2 - 15px);
+
+        }
+         .card2{
+            width: calc(100% / 3 - 15px)
+        }
+
+        .ext-container{
+            max-width: 100%;
+        }
+
+        .container2{
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .container .col1{
+            width: 70%;
+        }
+
+        .container .col2{
+            width: 30%;
+            margin-bottom: -20px;
+            align-self: flex-end;
+        }
+
+        .cards-container .card{
+            flex-direction: row;
+            gap: 15px;
+
+         }
+
+         .cerchio{
+            width: 400px;
+         }
+
+         .cards-container .card .cerchio img{
+            transform: translateX(-30px);
+         }
+
+         .cards-container .card p{
+            text-align: start;
+         }
+
+         .container3 .cards-container .card{
+            flex-direction: column;
+
+            width: calc(100% / 3 - 15px);
+         }
+
+         .container3 .cards-container{
+            flex-direction: row;
+            gap: 15px;
+            flex-wrap: wrap;
+         }
+
+         .container3 h1{
+            font-size: 3em;
+         }
+    
+         .container4 .info2 .cerchio{
+            width: 200px;
+         }
+
+         .container4{
+            flex-direction: row;
+            gap: 20px;
+         }
+
+         .container4 .info1 h1{
+            font-size: 4em;
+         }
+
+         .container4 .info1{
+            width: 80%;
+            padding-right: 50px;
+         }
+
+         .container4 .info2{
+            width: 20%;
+         }
+
+         .container6{
+            width: 50%;
+         }
+}
