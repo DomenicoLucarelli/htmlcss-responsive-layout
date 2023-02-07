@@ -444,11 +444,11 @@ padding: 50px 40px;
         }
 
         .card1{
-            width: calc(100% / 3 *2 - 15px);
+            width: calc(100% / 3 *2 - 15px / 3);
 
         }
          .card2{
-            width: calc(100% / 3 - 15px)
+            width: calc(100% / 3 - 15px / 3 * 2)
            
          }
 
